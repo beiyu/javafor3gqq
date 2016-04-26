@@ -17,7 +17,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		try {
-		String sid=QQClient.login("1623901988", "meng8633096");
+		String sid=QQClient.login("1623901988", "#######your password######");
 		List<Group> groupInfoList=QQClient.getFrendGroup(sid);
 		List<String> firendList=QQClient.getFriendsFromGroup(groupInfoList);
 		for(String qq:firendList){
